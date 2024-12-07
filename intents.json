@@ -1,0 +1,55 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "How are you?", "Is anyone there?", "Good morning", "Good evening"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! What can I do for you?", "Hey! How can I help?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Goodbye", "See you later", "Catch you later", "I’m leaving"],
+        "responses": ["Goodbye! Have a great day!", "See you later! Take care!", "Bye! Looking forward to chatting again!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thank you", "Thanks a lot", "Thanks", "Thanks for helping", "I appreciate it"],
+        "responses": ["You're welcome!", "Happy to help!", "Anytime! Let me know if there's more I can do."]
+      },
+      {
+        "tag": "help",
+        "patterns": ["Can you help me?", "I need assistance", "What can you do?", "Help", "Support"],
+        "responses": ["Of course! What do you need help with?", "I'm here to assist. Please tell me more.", "Sure! How can I help you today?"]
+      },
+      {
+        "tag": "about",
+        "patterns": ["What is your purpose?", "What do you do?", "Tell me about yourself", "Who are you?", "What are you?"],
+        "responses": ["I'm a friendly chatbot here to assist you with your queries and make your day better!", "I’m an interactive chatbot created to make conversations fun and helpful!"]
+      },
+      {
+        "tag": "chatbot_functionality",
+        "patterns": ["How do you work?", "How are you made?", "Tell me about your features", "What can you help with?"],
+        "responses": ["I use Natural Language Processing to understand your inputs and respond accurately!", "I’m built using AI and trained to assist you with various topics!"]
+      },
+      {
+        "tag": "jokes",
+        "patterns": ["Tell me a joke", "Make me laugh", "Can you tell jokes?", "Do you know any jokes?"],
+        "responses": ["Why don’t skeletons fight each other? They don’t have the guts!", "I told my computer I needed a break, and it gave me a window!"]
+      },
+      {
+        "tag": "motivational_quotes",
+        "patterns": ["Motivate me", "Give me some motivation", "Tell me a quote", "Inspire me"],
+        "responses": ["Believe you can, and you're halfway there.", "Dream big and dare to fail.", "Your only limit is your mind."]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["What's the weather like?", "Tell me the weather", "Is it sunny today?", "How's the weather outside?"],
+        "responses": ["I can't check the weather yet, but I suggest looking outside or using a weather app!", "It’s always sunny when you’re smiling!"]
+      },
+      {
+        "tag": "personal_info",
+        "patterns": ["What is your name?", "Who made you?", "Tell me about your creator", "Who built you?"],
+        "responses": ["I’m your friendly chatbot, built by a passionate developer to make your day easier and more fun!", "I’m created to be your friendly assistant!"]
+      }
+    ]
+  }
+  
